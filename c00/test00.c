@@ -5,14 +5,14 @@ extern void ft_putchar(char);
 int main() {
 
 	// test 01
-	printf("\033[96m====== TEST ft_div_mod(01) ======\033[39m\n");
+	printf("\033[96m====== TEST ft_putchar(01) ======\033[39m\n");
 	printf("\033[36maffichage attendu :\033[39m\nC\n");
 	printf("\033[36maffichage obtenue :\033[39m\n");
 	ft_putchar('C');
 	printf("\n");
 
 	// test 02
-	printf("\033[96m====== TEST ft_div_mod(02) ======\033[39m\n");
+	printf("\033[96m====== TEST ft_putchar(02) ======\033[39m\n");
 	printf("\033[36maffichage attendu :\033[39m\nHello, World!\n");
 	printf("\033[36maffichage obtenue :\033[39m\n");
 	ft_putchar('H');
@@ -31,7 +31,7 @@ int main() {
 	printf("\n");
 
 	// test 03
-	printf("\033[96m====== TEST ft_div_mod(03) ======\033[39m\n");
+	printf("\033[96m====== TEST ft_putchar(03) ======\033[39m\n");
 	printf("\033[36maffichage attendu :\033[39m\n0123456789\n");
 	printf("\033[36maffichage obtenue :\033[39m\n");
 	ft_putchar('0');
@@ -47,7 +47,7 @@ int main() {
 	printf("\n");
 
 	// test 04
-	printf("\033[96m====== TEST ft_div_mod(04) ======\033[39m\n");
+	printf("\033[96m====== TEST ft_putchar(04) ======\033[39m\n");
 	printf("\033[36maffichage attendu :\033[39m\n\\\n %% \"\n");
 	printf("\033[36maffichage obtenue :\033[39m\n");
 	ft_putchar('\\');
