@@ -3,7 +3,7 @@ extern void ft_ft(int*);
 #include <stdio.h>
 
 int main() {
-	int mod;
+	int mod = 10;
 
 	// test 01
 	printf("\033[96m====== TEST ft_ft(01) ======\033[39m\n");
