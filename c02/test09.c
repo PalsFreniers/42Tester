@@ -19,14 +19,14 @@ int main() {
 	{
 		char c[] = "ABCDEFGHIJKL";
 		ft_strcapitalize(c);
-		printf("\033[36mvaleurs attendue :\033[39m\nABCDEFGHIJKL\n");
+		printf("\033[36mvaleurs attendue :\033[39m\nAbcdefghijkl\n");
 		printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", c);
 	}
 
 	// test 03
 	printf("\033[96m====== TEST ft_strcapitalize(03) ======\033[39m\n");
 	{
-		char c[] = "nouveau3\n4test";
+		char c[] = "nouVeau3\n4test";
 		ft_strcapitalize(c);
 		printf("\033[36mvaleurs attendue :\033[39m\nNouveau3\n4test\n");
 		printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", c);
