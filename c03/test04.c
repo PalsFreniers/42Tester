@@ -28,6 +28,12 @@ int main() {
 	len = ft_strstr("Hello, world!", "zestys");
 	printf("\033[36mvaleurs attendue :\033[39m\n(null)\n");
 	printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", len);
+	
+	// test 05
+	printf("\033[96m====== TEST ft_strstr(05) ======\033[39m\n");
+	len = strstr("", "");
+	printf("\033[36mvaleurs attendue :\033[39m\n\n");
+	printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", len);
 
 	// end for tests
 	printf("\033[96m========= FIN DES TESTS =========\033[39m\n");
