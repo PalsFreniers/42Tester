@@ -1,7 +1,6 @@
 extern char *ft_strstr(char *, char *);
 
 #include <stdio.h>
-#include <string.h>
 
 int main() {
 	char *len;
