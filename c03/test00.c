@@ -32,7 +32,7 @@ int main() {
 
 	// test 05
 	printf("\033[96m====== TEST ft_strcmp(05) ======\033[39m\n");
-	len = ft_strcmp("Hello, world!", "Hello, Wohhhrld");
+	len = ft_strcmp("Hello, world!", "Hello, World!fjuher");
 	printf("\033[36mvaleurs attendue :\033[39m\n(any non null positive value)\n");
 	printf("\033[36mvaleurs obtenue  :\033[39m\n%d\n", len);
 
