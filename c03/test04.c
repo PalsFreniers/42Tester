@@ -13,7 +13,7 @@ int main() {
 
 	// test 02
 	printf("\033[96m====== TEST ft_strstr(02) ======\033[39m\n");
-	len = ft_strstr("Hello, world!", "");
+	len = ft_strstr("Hello, World!", "");
 	printf("\033[36mvaleurs attendue :\033[39m\nHello, World!\n");
 	printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", len);
 
