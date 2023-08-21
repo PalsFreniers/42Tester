@@ -31,7 +31,7 @@ int main() {
 	
 	// test 05
 	printf("\033[96m====== TEST ft_strstr(05) ======\033[39m\n");
-	len = strstr("", "");
+	len = ft_strstr("", "");
 	printf("\033[36mvaleurs attendue :\033[39m\n\n");
 	printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", len);
 
