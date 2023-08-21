@@ -14,8 +14,8 @@ int main() {
 
 	// test 02
 	printf("\033[96m====== TEST ft_strcat(02) ======\033[39m\n");
-	ft_strcat(strcpy(c, "hello"), "01234567890123456789");
-	printf("\033[36mvaleurs attendue :\033[39m\nhello01234567890123456789\n");
+	ft_strcat(strcpy(c, "hello"), "01234567890123");
+	printf("\033[36mvaleurs attendue :\033[39m\nhello01234567890123\n");
 	printf("\033[36mvaleurs obtenue  :\033[39m\n%s\n", c);
 
 	// test 03
